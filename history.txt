@@ -1,0 +1,50 @@
+    1  ls -a
+    2  ls -a
+    3  cd Documents/
+    4  ls -a
+    5  mkdir Bootcamp-stuff
+    6  ls -a
+    7  cd Bootcamp-stuff/
+    8  mkdir git-basic-exercises
+    9  cd git-basic-exercises/
+   10  ls -a
+   11  git init
+   12  ls -a
+   13  git status
+   14  touch readme.md
+   15  ls -a
+   16  git git status
+   17  git status
+   18  git log
+   19  git add readme.md 
+   20  git status
+   21  git commit -m "initial commit"
+   22  git log
+   23  cat readme.md 
+   24  nano readme.md 
+   25  cat readme.md 
+   26  git status
+   27  git add readme.md 
+   28  git commit -m " second commit"
+   29  git log
+   30  nano readme.md 
+   31  git add readme.md 
+   32  git commit -m "third commit"
+   33  git log
+   34  git checkout main
+   35  git checkout master
+   36  cat readme.md 
+   37  git branch
+   38  git checkout -b milkshake-flavours
+   39  git branch
+   40  nano milkshake-flavours
+   41  git status
+   42  git add milkshake-flavours 
+   43  git commit -m "added initial flavours"
+   44  git log
+   45  git checkout master
+   46  git checkout -b history
+   47  git log
+   48  git checkout history 
+   49  git branch
+   50  history >history.txt
